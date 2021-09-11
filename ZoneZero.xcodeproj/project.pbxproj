@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D4773700DE68A7BB8C8CF7 /* Pods_ZoneZero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957D72620BF7D22BDBD68B5F /* Pods_ZoneZero.framework */; };
+		53BD7A0F2FEC5BD8FD261888 /* Pods_ZoneZeroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A481F0E2D2B5F66DF6D60 /* Pods_ZoneZeroTests.framework */; };
+		6ABF89D726EC897A008CE3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89D626EC897A008CE3D7 /* AppDelegate.swift */; };
+		6ABF89D926EC897A008CE3D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89D826EC897A008CE3D7 /* SceneDelegate.swift */; };
+		6ABF89DB26EC897A008CE3D7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89DA26EC897A008CE3D7 /* RegisterViewController.swift */; };
+		6ABF89DE26EC897A008CE3D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF89DC26EC897A008CE3D7 /* Main.storyboard */; };
+		6ABF89E126EC897A008CE3D7 /* ZoneZero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89DF26EC897A008CE3D7 /* ZoneZero.xcdatamodeld */; };
+		6ABF89E326EC897B008CE3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF89E226EC897B008CE3D7 /* Assets.xcassets */; };
+		6ABF89E626EC897B008CE3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF89E426EC897B008CE3D7 /* LaunchScreen.storyboard */; };
+		6ABF89F126EC897C008CE3D7 /* ZoneZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89F026EC897C008CE3D7 /* ZoneZeroTests.swift */; };
+		6ABF89FC26EC897C008CE3D7 /* ZoneZeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF89FB26EC897C008CE3D7 /* ZoneZeroUITests.swift */; };
+		6ABF8A0A26EC8BF3008CE3D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF8A0926EC8BF3008CE3D7 /* GoogleService-Info.plist */; };
+		6ABF8A0C26EC96C6008CE3D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF8A0B26EC96C6008CE3D7 /* LoginViewController.swift */; };
+		6ABF8A0E26ECBEB5008CE3D7 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF8A0D26ECBEB5008CE3D7 /* MovieListViewController.swift */; };
+		6ABF8A1026ECC1E5008CE3D7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF8A0F26ECC1E5008CE3D7 /* MovieCell.swift */; };
+		E59CB695A6B8034EABBED25E /* Pods_ZoneZero_ZoneZeroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE165604458C2253EB4F04D /* Pods_ZoneZero_ZoneZeroUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABF89ED26EC897C008CE3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF89CB26EC8979008CE3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF89D226EC897A008CE3D7;
+			remoteInfo = ZoneZero;
+		};
+		6ABF89F826EC897C008CE3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF89CB26EC8979008CE3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF89D226EC897A008CE3D7;
+			remoteInfo = ZoneZero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110A481F0E2D2B5F66DF6D60 /* Pods_ZoneZeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoneZeroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EAABFB325C0274612CDAE2 /* Pods-ZoneZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZero.debug.xcconfig"; path = "Target Support Files/Pods-ZoneZero/Pods-ZoneZero.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF533660D187C9767AB3D08 /* Pods-ZoneZeroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZeroTests.release.xcconfig"; path = "Target Support Files/Pods-ZoneZeroTests/Pods-ZoneZeroTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ABF89D326EC897A008CE3D7 /* ZoneZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoneZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF89D626EC897A008CE3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABF89D826EC897A008CE3D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6ABF89DA26EC897A008CE3D7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6ABF89DD26EC897A008CE3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABF89E026EC897A008CE3D7 /* ZoneZero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZoneZero.xcdatamodel; sourceTree = "<group>"; };
+		6ABF89E226EC897B008CE3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABF89E526EC897B008CE3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABF89E726EC897B008CE3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF89EC26EC897C008CE3D7 /* ZoneZeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneZeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF89F026EC897C008CE3D7 /* ZoneZeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneZeroTests.swift; sourceTree = "<group>"; };
+		6ABF89F226EC897C008CE3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF89F726EC897C008CE3D7 /* ZoneZeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneZeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF89FB26EC897C008CE3D7 /* ZoneZeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneZeroUITests.swift; sourceTree = "<group>"; };
+		6ABF89FD26EC897C008CE3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF8A0926EC8BF3008CE3D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6ABF8A0B26EC96C6008CE3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6ABF8A0D26ECBEB5008CE3D7 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		6ABF8A0F26ECC1E5008CE3D7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8F620E43F40C7BB0772B9015 /* Pods-ZoneZero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZero.release.xcconfig"; path = "Target Support Files/Pods-ZoneZero/Pods-ZoneZero.release.xcconfig"; sourceTree = "<group>"; };
+		957D72620BF7D22BDBD68B5F /* Pods_ZoneZero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoneZero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52B3F57DCADB1E116507317 /* Pods-ZoneZero-ZoneZeroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZero-ZoneZeroUITests.release.xcconfig"; path = "Target Support Files/Pods-ZoneZero-ZoneZeroUITests/Pods-ZoneZero-ZoneZeroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25E049B37E9A823D6128EAB /* Pods-ZoneZeroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZeroTests.debug.xcconfig"; path = "Target Support Files/Pods-ZoneZeroTests/Pods-ZoneZeroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D053D9193603F9ED7A380A42 /* Pods-ZoneZero-ZoneZeroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneZero-ZoneZeroUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZoneZero-ZoneZeroUITests/Pods-ZoneZero-ZoneZeroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE165604458C2253EB4F04D /* Pods_ZoneZero_ZoneZeroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoneZero_ZoneZeroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABF89D026EC897A008CE3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D4773700DE68A7BB8C8CF7 /* Pods_ZoneZero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89E926EC897C008CE3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BD7A0F2FEC5BD8FD261888 /* Pods_ZoneZeroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89F426EC897C008CE3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59CB695A6B8034EABBED25E /* Pods_ZoneZero_ZoneZeroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680F9AE31AA73D67848BB111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				957D72620BF7D22BDBD68B5F /* Pods_ZoneZero.framework */,
+				DAE165604458C2253EB4F04D /* Pods_ZoneZero_ZoneZeroUITests.framework */,
+				110A481F0E2D2B5F66DF6D60 /* Pods_ZoneZeroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABF89CA26EC8979008CE3D7 = {
+			isa = PBXGroup;
+			children = (
+				6ABF89D526EC897A008CE3D7 /* ZoneZero */,
+				6ABF89EF26EC897C008CE3D7 /* ZoneZeroTests */,
+				6ABF89FA26EC897C008CE3D7 /* ZoneZeroUITests */,
+				6ABF89D426EC897A008CE3D7 /* Products */,
+				7F5884DAFA70C19EFDC5D38D /* Pods */,
+				680F9AE31AA73D67848BB111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABF89D426EC897A008CE3D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF89D326EC897A008CE3D7 /* ZoneZero.app */,
+				6ABF89EC26EC897C008CE3D7 /* ZoneZeroTests.xctest */,
+				6ABF89F726EC897C008CE3D7 /* ZoneZeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABF89D526EC897A008CE3D7 /* ZoneZero */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF89D626EC897A008CE3D7 /* AppDelegate.swift */,
+				6ABF89D826EC897A008CE3D7 /* SceneDelegate.swift */,
+				6ABF89DA26EC897A008CE3D7 /* RegisterViewController.swift */,
+				6ABF8A0926EC8BF3008CE3D7 /* GoogleService-Info.plist */,
+				6ABF89DC26EC897A008CE3D7 /* Main.storyboard */,
+				6ABF8A0B26EC96C6008CE3D7 /* LoginViewController.swift */,
+				6ABF89E226EC897B008CE3D7 /* Assets.xcassets */,
+				6ABF89E426EC897B008CE3D7 /* LaunchScreen.storyboard */,
+				6ABF89E726EC897B008CE3D7 /* Info.plist */,
+				6ABF89DF26EC897A008CE3D7 /* ZoneZero.xcdatamodeld */,
+				6ABF8A0D26ECBEB5008CE3D7 /* MovieListViewController.swift */,
+				6ABF8A0F26ECC1E5008CE3D7 /* MovieCell.swift */,
+			);
+			path = ZoneZero;
+			sourceTree = "<group>";
+		};
+		6ABF89EF26EC897C008CE3D7 /* ZoneZeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF89F026EC897C008CE3D7 /* ZoneZeroTests.swift */,
+				6ABF89F226EC897C008CE3D7 /* Info.plist */,
+			);
+			path = ZoneZeroTests;
+			sourceTree = "<group>";
+		};
+		6ABF89FA26EC897C008CE3D7 /* ZoneZeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF89FB26EC897C008CE3D7 /* ZoneZeroUITests.swift */,
+				6ABF89FD26EC897C008CE3D7 /* Info.plist */,
+			);
+			path = ZoneZeroUITests;
+			sourceTree = "<group>";
+		};
+		7F5884DAFA70C19EFDC5D38D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12EAABFB325C0274612CDAE2 /* Pods-ZoneZero.debug.xcconfig */,
+				8F620E43F40C7BB0772B9015 /* Pods-ZoneZero.release.xcconfig */,
+				D053D9193603F9ED7A380A42 /* Pods-ZoneZero-ZoneZeroUITests.debug.xcconfig */,
+				A52B3F57DCADB1E116507317 /* Pods-ZoneZero-ZoneZeroUITests.release.xcconfig */,
+				C25E049B37E9A823D6128EAB /* Pods-ZoneZeroTests.debug.xcconfig */,
+				1BF533660D187C9767AB3D08 /* Pods-ZoneZeroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABF89D226EC897A008CE3D7 /* ZoneZero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF8A0026EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZero" */;
+			buildPhases = (
+				3ACFC61A630360C0720F4272 /* [CP] Check Pods Manifest.lock */,
+				6ABF89CF26EC897A008CE3D7 /* Sources */,
+				6ABF89D026EC897A008CE3D7 /* Frameworks */,
+				6ABF89D126EC897A008CE3D7 /* Resources */,
+				4A81AC1F5CC81DB1589FACF2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoneZero;
+			productName = ZoneZero;
+			productReference = 6ABF89D326EC897A008CE3D7 /* ZoneZero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABF89EB26EC897C008CE3D7 /* ZoneZeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF8A0326EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZeroTests" */;
+			buildPhases = (
+				29ADC4348376AB7FBBEE4C7E /* [CP] Check Pods Manifest.lock */,
+				6ABF89E826EC897C008CE3D7 /* Sources */,
+				6ABF89E926EC897C008CE3D7 /* Frameworks */,
+				6ABF89EA26EC897C008CE3D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF89EE26EC897C008CE3D7 /* PBXTargetDependency */,
+			);
+			name = ZoneZeroTests;
+			productName = ZoneZeroTests;
+			productReference = 6ABF89EC26EC897C008CE3D7 /* ZoneZeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABF89F626EC897C008CE3D7 /* ZoneZeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF8A0626EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZeroUITests" */;
+			buildPhases = (
+				A657A28FFE5F0E7AE827578C /* [CP] Check Pods Manifest.lock */,
+				6ABF89F326EC897C008CE3D7 /* Sources */,
+				6ABF89F426EC897C008CE3D7 /* Frameworks */,
+				6ABF89F526EC897C008CE3D7 /* Resources */,
+				95D4813B606C1A551FAE9FAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF89F926EC897C008CE3D7 /* PBXTargetDependency */,
+			);
+			name = ZoneZeroUITests;
+			productName = ZoneZeroUITests;
+			productReference = 6ABF89F726EC897C008CE3D7 /* ZoneZeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABF89CB26EC8979008CE3D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6ABF89D226EC897A008CE3D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6ABF89EB26EC897C008CE3D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6ABF89D226EC897A008CE3D7;
+					};
+					6ABF89F626EC897C008CE3D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6ABF89D226EC897A008CE3D7;
+					};
+				};
+			};
+			buildConfigurationList = 6ABF89CE26EC8979008CE3D7 /* Build configuration list for PBXProject "ZoneZero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABF89CA26EC8979008CE3D7;
+			productRefGroup = 6ABF89D426EC897A008CE3D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABF89D226EC897A008CE3D7 /* ZoneZero */,
+				6ABF89EB26EC897C008CE3D7 /* ZoneZeroTests */,
+				6ABF89F626EC897C008CE3D7 /* ZoneZeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABF89D126EC897A008CE3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF89E626EC897B008CE3D7 /* LaunchScreen.storyboard in Resources */,
+				6ABF8A0A26EC8BF3008CE3D7 /* GoogleService-Info.plist in Resources */,
+				6ABF89E326EC897B008CE3D7 /* Assets.xcassets in Resources */,
+				6ABF89DE26EC897A008CE3D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89EA26EC897C008CE3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89F526EC897C008CE3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29ADC4348376AB7FBBEE4C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoneZeroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACFC61A630360C0720F4272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoneZero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A81AC1F5CC81DB1589FACF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoneZero/Pods-ZoneZero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoneZero/Pods-ZoneZero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoneZero/Pods-ZoneZero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D4813B606C1A551FAE9FAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoneZero-ZoneZeroUITests/Pods-ZoneZero-ZoneZeroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoneZero-ZoneZeroUITests/Pods-ZoneZero-ZoneZeroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoneZero-ZoneZeroUITests/Pods-ZoneZero-ZoneZeroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A657A28FFE5F0E7AE827578C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoneZero-ZoneZeroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABF89CF26EC897A008CE3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF8A1026ECC1E5008CE3D7 /* MovieCell.swift in Sources */,
+				6ABF89DB26EC897A008CE3D7 /* RegisterViewController.swift in Sources */,
+				6ABF89E126EC897A008CE3D7 /* ZoneZero.xcdatamodeld in Sources */,
+				6ABF89D726EC897A008CE3D7 /* AppDelegate.swift in Sources */,
+				6ABF8A0E26ECBEB5008CE3D7 /* MovieListViewController.swift in Sources */,
+				6ABF8A0C26EC96C6008CE3D7 /* LoginViewController.swift in Sources */,
+				6ABF89D926EC897A008CE3D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89E826EC897C008CE3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF89F126EC897C008CE3D7 /* ZoneZeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF89F326EC897C008CE3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF89FC26EC897C008CE3D7 /* ZoneZeroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABF89EE26EC897C008CE3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF89D226EC897A008CE3D7 /* ZoneZero */;
+			targetProxy = 6ABF89ED26EC897C008CE3D7 /* PBXContainerItemProxy */;
+		};
+		6ABF89F926EC897C008CE3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF89D226EC897A008CE3D7 /* ZoneZero */;
+			targetProxy = 6ABF89F826EC897C008CE3D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABF89DC26EC897A008CE3D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABF89DD26EC897A008CE3D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABF89E426EC897B008CE3D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABF89E526EC897B008CE3D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABF89FE26EC897C008CE3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABF89FF26EC897C008CE3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABF8A0126EC897C008CE3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EAABFB325C0274612CDAE2 /* Pods-ZoneZero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABF8A0226EC897C008CE3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F620E43F40C7BB0772B9015 /* Pods-ZoneZero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ABF8A0426EC897C008CE3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25E049B37E9A823D6128EAB /* Pods-ZoneZeroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZeroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoneZero.app/ZoneZero";
+			};
+			name = Debug;
+		};
+		6ABF8A0526EC897C008CE3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF533660D187C9767AB3D08 /* Pods-ZoneZeroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZeroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoneZero.app/ZoneZero";
+			};
+			name = Release;
+		};
+		6ABF8A0726EC897C008CE3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D053D9193603F9ED7A380A42 /* Pods-ZoneZero-ZoneZeroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoneZero;
+			};
+			name = Debug;
+		};
+		6ABF8A0826EC897C008CE3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52B3F57DCADB1E116507317 /* Pods-ZoneZero-ZoneZeroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2Z6Q6SV9B;
+				INFOPLIST_FILE = ZoneZeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbk.ZoneZeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoneZero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABF89CE26EC8979008CE3D7 /* Build configuration list for PBXProject "ZoneZero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF89FE26EC897C008CE3D7 /* Debug */,
+				6ABF89FF26EC897C008CE3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF8A0026EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF8A0126EC897C008CE3D7 /* Debug */,
+				6ABF8A0226EC897C008CE3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF8A0326EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF8A0426EC897C008CE3D7 /* Debug */,
+				6ABF8A0526EC897C008CE3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF8A0626EC897C008CE3D7 /* Build configuration list for PBXNativeTarget "ZoneZeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF8A0726EC897C008CE3D7 /* Debug */,
+				6ABF8A0826EC897C008CE3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ABF89DF26EC897A008CE3D7 /* ZoneZero.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ABF89E026EC897A008CE3D7 /* ZoneZero.xcdatamodel */,
+			);
+			currentVersion = 6ABF89E026EC897A008CE3D7 /* ZoneZero.xcdatamodel */;
+			path = ZoneZero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ABF89CB26EC8979008CE3D7 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ZoneZeroTests {
+  umbrella header "Pods-ZoneZeroTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
